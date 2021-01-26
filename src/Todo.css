@@ -1,11 +1,30 @@
 .container{
   margin: auto;
-  max-width: 900px;
+  max-width: 600px;
 }
 
 .done{
   text-decoration: line-through;
 }
-li button {
+/* li button {
   margin-left: .5rem;
+  cursor: pointer;
+} */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  padding: 15px;
+  
+  margin-top: 15px;
+}
+.card{
+  box-shadow: 0 2px 7px 1px rgba(0, 	0, 0, 0.2); 
 }
